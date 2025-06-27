@@ -1,0 +1,5 @@
+Hello, {{ name }}!
+Projects:
+{% for project in projects -%}
+- {{ project.name }} ({{ project.status }})
+{% endfor %}
